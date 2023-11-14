@@ -3,15 +3,17 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({ 
     button: {
-        paddingVertical: 10,
-        paddingHorizontal: 30,
-        borderRadius: 30,
+        paddingVertical: 23,
+        borderRadius: 15,
+        backgroundColor: '#fff',
+        width: '80%',
+        alignItems: 'center'
     },
     title: {
-        fontFamily: 'Jomhuria',
-        fontSize: 40,
+        fontFamily: 'Inter',
+        fontSize: 20,
         textTransform: "uppercase",
-        color: colors.white,
-        alignItems: "center"
+        alignItems: "center",
+        color: colors.white
     }
 })

@@ -4,9 +4,9 @@ import GameSplash from "../../components/GameSplash";
 import images from "../../assets/img";
 import { styles } from "./styles";
 
-const PowerHour = () => {
+const PowerHour = ({navigation}) => {
     return (
-        <GameSplash logo={images.logos.powerhour} backgroundColor={{backgroundColor: "#3272D1"}} buttonColor={{backgroundColor: "#2D5A9E"}}/>
+        <GameSplash logo={images.logos.powerhour} colorTop='#FECB00' colorBottom='#3C77C8' colorButton='#2F69BA' title='Power Hour' navigation={navigation}/>
     )
 }
 export default PowerHour

@@ -3,27 +3,24 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     listItem: {
-        marginTop: 40,
-        flexDirection: 'row',
+        display: "flex",
+        flexDirection: 'column',
         alignItems: 'center',
-        alignSelf: 'center',
         justifyContent: 'center',
-        backgroundColor: colors.blackBgDarker,
-        padding: 20,
         borderRadius: 20,
-        width: '90%'
+        padding: 20
     },
     itemTitle: {
         color: colors.white,
-        fontSize: 50,
-        fontWeight: '700',
+        fontSize: 20,
+        fontWeight: '400',
         textTransform: "uppercase",
-        marginLeft: 40,
-        fontFamily: 'Jomhuria'
+        marginTop: 10,
+        fontFamily: 'Inter'
     },
     image: {
-        width: 40,
-        height: 40,
+        width: 120,
+        height: 120,
         overflow: "visible"
     }
 })

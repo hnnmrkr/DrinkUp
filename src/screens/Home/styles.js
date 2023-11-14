@@ -2,28 +2,34 @@ import { colors } from "../../utils/colors";
 import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    background: {
-        height: '100%',
-        backgroundColor: colors.blackBg    },
+    gradient: {
+        height: '150%',
+    },
     title: {
         color: colors.white,
         fontSize: 90,
         fontWeight: '700',
         textAlign: 'center',
-        marginTop: 50,
+        marginTop: 40,
         textTransform: "uppercase",
         fontFamily: 'Jomhuria'
     },
     subtitle: {
         color: colors.white,
-        fontSize: 50,
-        fontWeight: '700',
+        fontSize: 20,
+        fontWeight: '400',
         textAlign: 'center',
         textTransform: "uppercase",
-        marginTop: 10,
-        fontFamily: 'Jomhuria'
+        fontFamily: 'Inter',
     },
     list: {
-        marginTop: 60
+        marginHorizontal: "auto",
+        width: 400,
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        marginTop: 30,
+    },
+    listItem: {
+        flex: 1,
     }
 })
